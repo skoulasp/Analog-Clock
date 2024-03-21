@@ -7,7 +7,6 @@ const needleSeconds = document.querySelector(".needle-seconds i");
 const checkbox = document.querySelector("#switch");
 const checkboxTitle = document.querySelector(".switch-title");
 const title = document.querySelector(".title");
-const titleContent = document.querySelector(".title-content");
 const image = document.querySelector(".img");
 const numbers = document.querySelectorAll(".num i");
 const i = document.querySelector(".information");
@@ -15,8 +14,8 @@ const latinNumbers = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X
 let intervalId;
 let isChecked;
 let modalActive = false;
-import switzerlandImage from "../img/switzerland.png"; // Adjust the path as needed
-import chinaImage from "../img/china.png"; // Adjust the path as needed
+import switzerlandImage from "../img/switzerland.png";
+import chinaImage from "../img/china.png";
 
 function DOMclock(isChecked = true) {
     const now = new Date();
@@ -143,7 +142,6 @@ function loadChineseClock() {
 }
 
 document.addEventListener("animationend", (e) => {
-    console.log(e.animationName);
     if (e.animationName) {
         e.target.classList.remove(e.animationName);
     }
@@ -212,10 +210,3 @@ document.addEventListener("click", (e) => {
         modalActive = false;
     }
 });
-
-// title.addEventListener("click", function (e) {
-//     console.log(e);
-//     if (e.target === this.querySelector("::after")) {
-//         title.remove();
-//     }
-// });
