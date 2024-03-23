@@ -38,6 +38,7 @@ You can play with the analog clock [here](https://skoulasp.github.io/Analog-Cloc
 ## Screenshots
 
 ![Screenshot 1](https://i.imgur.com/X7AQBWt.png) **Swiss version**
+
 ![Screenshot 2](https://i.imgur.com/o7878nI.png) **Chinese version**
 
 ## Installation
