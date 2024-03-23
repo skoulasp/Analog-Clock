@@ -38,7 +38,6 @@ You can play with the analog clock [here](https://skoulasp.github.io/Analog-Cloc
 ## Screenshots
 
 ![Screenshot 1](https://i.imgur.com/X7AQBWt.png) **Swiss version**
-
 ![Screenshot 2](https://i.imgur.com/o7878nI.png) **Chinese version**
 
 ## Installation
@@ -47,27 +46,27 @@ To install and run the project locally:
 
 1. Clone the repository to your local machine:
 
-      ```bash
-      git clone https://github.com/skoulasp/Analog-Clock.git
-      ```
+  ```bash
+  git clone https://github.com/skoulasp/Analog-Clock.git
+  ```
 
 2. Navigate to the project directory:
 
-      ```bash
-      cd analog-clock
-      ```
+  ```bash
+  cd analog-clock
+  ```
 
 3. Install dependencies using npm:
 
-      ```bash
-      npm install
-      ```
+  ```bash
+  npm install
+  ```
 
 4. Start the development server:
 
-      ```bash
-      npm start
-      ```
+  ```bash
+  npm start
+  ```
 
 5. Open the project in your web browser at http://localhost:1234.
 
